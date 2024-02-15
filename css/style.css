@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 html,
 body {
 	background-color: #0f0f0f;
 	color: #e3e3e3;
+	font-family: 'Open Sans', sans-serif;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -28,18 +31,32 @@ h2 {
 p {
 	font-size: 1.3rem;
 	color: #d3d3d3;
+	font-weight: 500;
 }
 
 input {
-	max-width: 5rem;
+	max-width: 6rem;
 }
 
 input,
 button {
 	border: 2px solid #d3d3d3;
-	border-radius: 5px;
+	border-radius: 8px;
 	background-color: #0f0f0f;
 	color: #e3e3e3;
-	font-size: 1.3rem;
+	font-size: 1.8rem;
+	font-weight: 600;
 	padding: 0.4rem;
+	text-align: center;
+}
+
+input[type="number"] {
+	-webkit-appearance: textfield;
+	-moz-appearance: textfield;
+	appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
 }
