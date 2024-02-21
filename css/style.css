@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 html,
 body {
 	background-color: #0f0f0f;
 	color: #e3e3e3;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -56,7 +56,12 @@ input[type="number"] {
 	appearance: textfield;
 }
 
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
 	-webkit-appearance: none;
+}
+
+.temp {
+	font-size: 0.6em;
+	color: #333;
 }
